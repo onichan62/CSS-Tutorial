@@ -1,13 +1,28 @@
-.content h2 {
-    font-size: 32px;
-    color: #6B8E23
-}
-
-.content p {
+.today {
     font-size: 20px;
-    color: #20B2AA
+
 }
 
-.side h3 + p {
-    color: red;
+span {
+    background-color: #FFC0CB;
+    display: inline-block;
+    height: 28px
+}
+
+.temperature {
+    background-color: #FFD8B2;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.humidity {
+    background-color: #ADD8E6;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+img {
+    display: block;
 }
